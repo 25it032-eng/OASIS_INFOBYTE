@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Tribute to Dr. APJ Abdul Kalam</h1>
+            <p class="subtitle">“The Missile Man of India”</p>
+        </header>
+
+        <div class="image-section">
+            <img src="image.png" alt="Dr. APJ Abdul Kalam">
+        </div>
+
+        <section class="tribute-info">
+            <h2>About Him</h2>
+            <p>
+                Dr. APJ Abdul Kalam (1931–2015) was an Indian aerospace scientist 
+                and the 11th President of India. He played a crucial role in the 
+                development of India's missile and nuclear programs, earning him the 
+                title “Missile Man of India.” His dedication, simplicity, and love 
+                for students made him one of the most respected figures in modern India.
+            </p>
+
+            <h2>Achievements</h2>
+            <ul>
+                <li>Developed India’s first Satellite Launch Vehicle (SLV-III)</li>
+                <li>Key role in Pokhran-II nuclear tests</li>
+                <li>President of India (2002–2007)</li>
+                <li>Bharat Ratna Award recipient</li>
+                <li>Author of inspirational books like *Wings of Fire*</li>
+            </ul>
+
+            <h2>Inspiration</h2>
+            <p>
+                Dr. Kalam believed in dreaming big and working hard to achieve it.
+                His life continues to inspire millions around the world.
+            </p>
+        </section>
+
+        <footer>
+            <p>Created with ❤️ for OIB-SIP Internship Task 2</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+#CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #101820;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #00e676;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 260px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00e67650;
+}
+
+.tribute-info h2 {
+    color: #00e676;
+}
+
+.tribute-info p, ul {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
